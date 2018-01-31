@@ -1,0 +1,108 @@
+channel-textarea-inner {
+    border-radius: 0px!important;
+    border: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.channel-textarea-inner.beard {
+    height: auto;
+}
+
+.channel-textarea {
+    position: relative;
+}
+
+.channel-textarea-inner textarea {
+    color: var(--white10);
+    opacity: 0.8;
+    transition: all 100ms ease;
+    padding: 26px 0px;
+    margin-left: 25px;
+    margin-right: 0;
+    max-height: 200px
+}
+
+.channel-textarea-inner textarea:focus {
+    color: var(--white10);
+    opacity: 1;
+}
+
+.channel-textarea-upload+textarea {
+    margin-left: 5px;
+}
+
+.channel-textarea {
+    color: var(--lvl2);
+    margin: 0px;
+    border-radius: 0px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease;
+    z-index: 3;
+}
+
+.channel-textarea-inner {
+    border-radius: 4px;
+    transition: all 200ms ease;
+    opacity: 0.8;
+}
+
+.channel-textarea-inner:hover {
+    opacity: 1;
+}
+
+.channel-textarea-inner .channel-textarea-upload {
+    border-radius: 0px !important;
+    color: var(--white10) !important;
+    border-right-color: var(--white0) !important;
+    padding: 0 !important;
+    opacity: 0.3;
+    height: 100%!important;
+    width: 80px;
+    background-size: 21px !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTIgMTIuNUMyIDkuNDYgNC40NiA3IDcuNSA3SDE4YzIuMjEgMCA0IDEuNzkgNCA0cy0xLjc5IDQtNCA0SDkuNUM4LjEyIDE1IDcgMTMuODggNyAxMi41UzguMTIgMTAgOS41IDEwSDE3djJIOS40MWMtLjU1IDAtLjU1IDEgMCAxSDE4YzEuMSAwIDItLjkgMi0ycy0uOS0yLTItMkg3LjVDNS41NyA5IDQgMTAuNTcgNCAxMi41UzUuNTcgMTYgNy41IDE2SDE3djJINy41QzQuNDYgMTggMiAxNS41NCAyIDEyLjV6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
+    transition: all 100ms ease;
+    display: inline-block!important;
+    margin: 0;
+    background-position: 50%;
+}
+
+.channel-textarea-inner .channel-textarea-upload:active,
+.channel-textarea-inner .channel-textarea-upload:hover {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTIgMTIuNUMyIDkuNDYgNC40NiA3IDcuNSA3SDE4YzIuMjEgMCA0IDEuNzkgNCA0cy0xLjc5IDQtNCA0SDkuNUM4LjEyIDE1IDcgMTMuODggNyAxMi41UzguMTIgMTAgOS41IDEwSDE3djJIOS40MWMtLjU1IDAtLjU1IDEgMCAxSDE4YzEuMSAwIDItLjkgMi0ycy0uOS0yLTItMkg3LjVDNS41NyA5IDQgMTAuNTcgNCAxMi41UzUuNTcgMTYgNy41IDE2SDE3djJINy41QzQuNDYgMTggMiAxNS41NCAyIDEyLjV6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
+    opacity: 1;
+    background-color: transparent!important;
+    background-position: 50%;
+}
+
+.chat form .typing {
+    z-index: 0;
+    animation: opacity 700ms ease;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -ms-transform: scale(1);
+    transform: scale(1);
+    width: auto;
+    padding-right: 20px;
+    padding-top: 0px;
+    border-radius: 5px 5px 0 0;
+    margin-left: 15px;
+    color: var(--white10);
+    box-shadow: 0 -3px 20px rgba(0, 0, 0, .1);
+    opacity: .95;
+    transition: all 200ms ease;
+    overflow-y: visible!important;
+    z-index: 5;
+}
+
+.typing .text {
+    line-height: 26px
+}
+
+.typing .ellipsis {
+    height: 31px
+}
+
+.chat form .typing:hover {
+    opacity: 1;
+}

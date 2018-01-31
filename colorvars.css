@@ -1,0 +1,35 @@
+:root {
+    --version:"Beard's Material Theme v2.2.10-beta";
+    --accent-color: #7289DA;
+    --notification-color: #fff;
+    --important-notification-color: #F04747;
+    /*MAIN COLORS*/
+    --lvl1:#303030;/*var(--lvl1)*/
+    --lvl2:#212121;/*var(--lvl2)*/
+    --lvl25: #191919;
+    --lvl3:#141414;/*var(--lvl3)*/
+    /*WHITE*/
+    --white0:rgba(255,255,255,0);/*var(--white0)*/
+    --white1:rgba(255,255,255,.1);/*var(--white1)*/
+    --white2:rgba(255,255,255,.2);/*var(--white2)*/
+    --white3:rgba(255,255,255,.3);/*var(--white3)*/
+    --white4:rgba(255,255,255,.4);/*var(--white4)*/
+    --white5:rgba(255,255,255,.5);/*var(--white5)*/
+    --white6:rgba(255,255,255,.6);/*var(--white6)*/
+    --white7:rgba(255,255,255,.7);/*var(--white7)*/
+    --white8:rgba(255,255,255,.8);/*var(--white8)*/
+    --white9:rgba(255,255,255,.9);/*var(--white9)*/
+    --white10:rgba(255,255,255,1);/*var(--white10)*/
+    /*BLACK*/
+    --black0:rgba(0,0,0,0);/*var(--black0)*/
+    --black1:rgba(0,0,0,.1);/*var(--black1)*/
+    --black2:rgba(0,0,0,.2);/*var(--black2)*/
+    --black3:rgba(0,0,0,.3);/*var(--black3)*/
+    --black4:rgba(0,0,0,.4);/*var(--black4)*/
+    --black5:rgba(0,0,0,.5);/*var(--black5)*/
+    --black6:rgba(0,0,0,.6);/*var(--black6)*/
+    --black7:rgba(0,0,0,.7);/*var(--black7)*/
+    --black8:rgba(0,0,0,.8);/*var(--black8)*/
+    --black9:rgba(0,0,0,.9);/*var(--black9)*/
+    --black10:rgba(0,0,0,1);/*var(--black10)*/
+}
